@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDrivers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <!-- שדה החיפוש -->
+        <EditText
+            android:id="@+id/editTextSearchName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter driver name"
+            android:padding="8dp" />
+
+        <!-- כפתור החיפוש -->
+        <Button
+            android:id="@+id/buttonSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEARCH"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp" />
+
+        <!-- הפריטים שיוצגו דינמית -->
+        <LinearLayout
+            android:id="@+id/linearLayoutResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </LinearLayout>
+</ScrollView>

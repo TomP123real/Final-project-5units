@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"/>
+
+
+    <TextView
+        android:id="@+id/textViewPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pickup: "
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/textViewDropoff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dropoff: "
+        android:textSize="16sp"
+        android:paddingBottom="5dp"/>
+
+    <Button
+        android:id="@+id/buttonAccept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accept Trip"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>

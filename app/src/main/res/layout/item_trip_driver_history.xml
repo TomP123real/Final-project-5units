@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <!-- תאריך ושעת התחלה -->
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and Time"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- כתובת איסוף -->
+    <TextView
+        android:id="@+id/textViewPickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pickup: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- כתובת הורדה -->
+    <TextView
+        android:id="@+id/textViewDropoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dropoff: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- דירוג שהלקוח נתן -->
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- הערות שהלקוח השאיר -->
+    <TextView
+        android:id="@+id/textViewComments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comments: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- שעת סיום הנסיעה -->
+    <TextView
+        android:id="@+id/textViewHourEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+</LinearLayout>

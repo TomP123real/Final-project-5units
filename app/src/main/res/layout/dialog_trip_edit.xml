@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bb"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Trip Details"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#FFF"
+
+        android:paddingBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+
+        android:layout_height="wrap_content"
+        android:text="Rating:"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+
+        android:text="Comments:"/>
+
+    <EditText
+        android:id="@+id/editTextComments"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter comments"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+
+        android:layout_height="wrap_content"
+        android:text="End Time:"/>
+
+    <EditText
+        android:id="@+id/editTextHourEnd"
+        android:layout_width="match_parent"
+        android:textColor="#FFF"
+
+        android:layout_height="wrap_content"
+        android:hint="Enter end time"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Save"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>

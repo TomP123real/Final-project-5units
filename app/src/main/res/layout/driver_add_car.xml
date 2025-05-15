@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/bb"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- כותרת -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add New Car"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- שדה ללוחית רישוי -->
+        <EditText
+            android:id="@+id/editTextLicenseNumber"
+            android:layout_width="match_parent"
+            android:textColor="#FFF"
+
+            android:layout_height="wrap_content"
+            android:hint="License Number" />
+
+        <!-- שדה לדגם -->
+        <EditText
+            android:id="@+id/editTextModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+
+            android:hint="Model"
+            android:layout_marginTop="8dp" />
+
+        <!-- שדה לתיאור -->
+        <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:inputType="textMultiLine"
+            android:minLines="3"
+            android:textColor="#FFF"
+
+            android:layout_marginTop="8dp" />
+
+        <!-- כפתור בחירת תאריך יצירה -->
+        <Button
+            android:id="@+id/buttonPickDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pick Date Created"
+            android:layout_marginTop="8dp" />
+
+        <!-- תצוגת תאריך שנבחר -->
+        <TextView
+            android:id="@+id/textViewDateCreated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFF"
+
+            android:text="Date Created: "
+
+            android:layout_marginTop="8dp" />
+
+        <!-- כפתור לבחירת לוגו -->
+        <Button
+            android:id="@+id/buttonChooseLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose Logo"
+            android:layout_marginTop="16dp" />
+
+        <!-- תצוגת התמונה שנבחרה -->
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:background="#DDD" />
+
+        <!-- כפתור להוספת הרכב -->
+        <Button
+            android:id="@+id/buttonAddCar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Car"
+            android:layout_marginTop="24dp" />
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+</ScrollView>

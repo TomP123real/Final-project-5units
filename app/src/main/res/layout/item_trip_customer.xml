@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@android:color/white">
+
+    <!-- תאריך ושעת התחלה -->
+    <TextView
+        android:id="@+id/textViewDateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date and Time"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- כתובת איסוף -->
+    <TextView
+        android:id="@+id/textViewPickup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pickup: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- כתובת הורדה -->
+    <TextView
+        android:id="@+id/textViewDropoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dropoff: "
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <!-- כפתור עריכת נסיעה -->
+    <Button
+        android:id="@+id/buttonEditTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Trip"
+        android:layout_marginTop="8dp"/>
+
+    <!-- כפתור ביטול נסיעה (רק אם בסטטוס pending) -->
+    <Button
+        android:id="@+id/buttonCancelTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel Trip"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:textColor="@android:color/white"/>
+</LinearLayout>

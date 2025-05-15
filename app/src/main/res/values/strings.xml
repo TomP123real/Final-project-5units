@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tom Uber</string>
+    <string-array name="city_array">
+        <item>Tel Aviv</item>
+        <item>Jerusalem</item>
+        <item>Haifa</item>
+        <item>Beersheba</item>
+        <item>Eilat</item>
+    </string-array>
+
+</resources>

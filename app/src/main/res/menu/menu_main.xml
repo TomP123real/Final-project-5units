@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/homepage" android:title="Home" />
+    <item android:id="@+id/update" android:title="Update Profile" />
+    <item android:id="@+id/searchDriverCars" android:title="Search Driver Cars" />
+    <item android:id="@+id/addCar" android:title="Add Car" />
+    <item android:id="@+id/driverCars" android:title="My Cars" />
+    <item android:id="@+id/settings" android:title="Settings" />
+    <item android:id="@+id/AvailableDriverTripsActivity" android:title="Available Trips" />
+    <item android:id="@+id/CustomerTripsActivity" android:title="My Trips" />
+    <item android:id="@+id/addOrderFood" android:title="Add Order" />
+    <item android:id="@+id/availableOrderFood" android:title="View Orders" />
+    <item android:id="@+id/driver_history" android:title="Trip History" />
+    <item
+        android:id="@+id/viewClientOrders"
+        android:title="My Food Orders" />
+    <item
+        android:id="@+id/driverOrders"
+        android:title="my food orders as driver"
+        android:icon="@android:drawable/ic_menu_agenda" />
+
+    <item android:id="@+id/logout" android:title="Logout" />
+
+
+</menu>

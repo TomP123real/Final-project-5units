@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="10dp"
+    android:background="#EEEEEE">
+
+    <TextView
+        android:id="@+id/tvRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="מסעדה:"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvClientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="כתובת לקוח:"
+        android:textSize="14sp"
+        android:textColor="#444444" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="תאריך:"
+        android:textSize="14sp"
+        android:textColor="#444444" />
+
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="שעת הגעה:"
+        android:textSize="14sp"
+        android:textColor="#444444" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="סטטוס:"
+        android:textSize="14sp"
+        android:textColor="#FF5722"
+        android:textStyle="bold" />
+
+</LinearLayout>
