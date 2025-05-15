@@ -12,6 +12,7 @@
 אינטגרציה עם מייל לשליחת בקשה להפוך לנהג
 בדיקות תקינות קלט, Toastים ודיאלוגים מותאמים
 טכנולוגיות בשימוש:
+
 Java & XML
 
 Firebase Realtime Database, Auth, Storage
